@@ -1,6 +1,6 @@
 
 require("dotenv").config();
-// import { twitter } from "./keys";
+import { twitter } from "./keys";
 
 let fs=require("fs");
 let request=require("request");
