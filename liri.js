@@ -15,7 +15,9 @@ switch(userCommand){
   break;
   case "spotify-this-song":spotifyThisSong();
   break;
-  default:console.log("Welcome to LIRI! Here are your command choices:"+"\n - my-tweets: Yields last 20 Tweets."+"\n - spotify-this-song: Base song info."+"\n - movie-this: Base movie info."+"\n - do-what-it-says"+"\n *Spotify and Movie choices will require quotation marks around your choice.")
+  case "do-what-it-says":doWhatItSays();
+  break;
+  default:console.log("Welcome to LIRI! Here are your command choices:"+"\n - my-tweets: Yields last 20 Tweets."+"\n - spotify-this-song: Base song info."+"\n - movie-this: Base movie info."+"\n - do-what-it-says"+"\n *Spotify and Movie choices will require quotation marks around your choice.");
 };
 //Liri Twitter//
 function myTweets(){
@@ -90,3 +92,5 @@ function spotifyThisSong(){
     };
   });
 };
+//Liri Do What it Says//
+function doWhatItSays()
