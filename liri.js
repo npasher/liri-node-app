@@ -4,10 +4,10 @@ const fs=require("fs");
 const request=require("request");
 const keys=require("./keys.js");
 const twitter=require("twitter");
-let spotify=require("node-spotify-api");
+const spotify=require("node-spotify-api");
 let userCommand=process.argv[2];
 let userInput=process.argv[3];
-
+//User Inputs//
 switch(userCommand){
   case "my-tweets":myTweets();
   break;
@@ -36,6 +36,9 @@ function myTweets(){
       let number=i+1;
       let pulledTweets="Tweet#"+number+":"+tweets[i].text+"\n";
       console.log(pulledTweets);
+      fs.appendFile("log.txt",pulledTweets,function (error){
+        if (error) throw error;
+      });
     };
     };
     if(error){
@@ -64,6 +67,9 @@ function movieThis(){
                     +"\nPlot:"+moviePull.Plot
                     +"\nActors:"+moviePull.Actors
       console.log(movieStats);
+      fs.appendFile("log.txt",movieStats,function (error){
+        if (error) throw error;
+      });
     };
     if(error){
       console.log("Error, Please try again.");
@@ -89,8 +95,16 @@ function spotifyThisSong(){
                 "\nLink: "+data.tracks.items[0].album.external_urls.spotify+
                 "\nAlbum Title: "+data.tracks.items[0].album.name;
       console.log(songStats);
+      fs.appendFile("log.txt",songStats,function (error){
+        if (error) throw error;
+      });
     };
+    // if(error){
+    //   console.log("Error, Please try again.");
+    // };
   });
 };
 //Liri Do What it Says//
-function doWhatItSays()
+function doWhatItSays(){
+  
+};
