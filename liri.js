@@ -4,7 +4,7 @@ const fs=require("fs");
 const request=require("request");
 const keys=require("./keys.js");
 const twitter=require("twitter");
-const spotify=require("spotify-web-api-node");
+let spotify=require("node-spotify-api");
 let userCommand=process.argv[2];
 let userInput=process.argv[3];
 
@@ -56,7 +56,7 @@ function movieThis(){
       let movieStats="\nTitle:"+moviePull.Title
                     +"\nYear:"+moviePull.Year
                     +"\nIMDB Rating:"+moviePull.imdbRating
-                    +"\nRotten Tomatoes Rating:"+moviePull.tomatoTating
+                    +"\nRotten Tomatoes Rating:"+moviePull.tomatoRating
                     +"\nCountry of Orgin:"+moviePull.Country
                     +"\nLanguage:"+moviePull.Language
                     +"\nPlot:"+moviePull.Plot
@@ -70,7 +70,23 @@ function movieThis(){
 };
 //Liri Spotify//
 function spotifyThisSong(){
-  let spotify=new Spotify({
-
+  let musicSpotify=new spotify(keys.spotify);
+  let songTitle=userInput;
+  if(!songTitle){
+    songTitle="The Sign";
+  };
+  params=songTitle;
+  musicSpotify.search({type:"track",query:params}, function(err,data){
+    if (err){
+      console.log("Error, Please try again.")
+      return;
+    }
+    else{
+      songStats="Artist: "+data.tracks.items[0].album.artists[0].name+
+                "\nSong Title: "+songTitle+
+                "\nLink: "+data.tracks.items[0].album.external_urls.spotify+
+                "\nAlbum Title: "+data.tracks.items[0].album.name;
+      console.log(songStats);
+    };
   });
 };
