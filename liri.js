@@ -13,33 +13,40 @@ switch(userCommand){
   break;
   case "movie-this":movieThis();
   break;
-  default:console.log("Welcome to LIRI! Here are your command choices:"+"\n 1. my-tweets:Yields last 20 Tweets."+"\n 2. spotify-this-song:Base song info."+"\n 3. movie-this:Base movie info."+"\n 4. do-what-it-says"+"\n *Spotify and Movie choices will require quotation marks around your choice.")
-}
+  case "spotify-this-song":spotifyThisSong();
+  break;
+  default:console.log("Welcome to LIRI! Here are your command choices:"+"\n - my-tweets: Yields last 20 Tweets."+"\n - spotify-this-song: Base song info."+"\n - movie-this: Base movie info."+"\n - do-what-it-says"+"\n *Spotify and Movie choices will require quotation marks around your choice.")
+};
+//Liri Twitter//
 function myTweets(){
-  let twitterClient=new twitter(keys.twitterKeys);
-  let twitterUser=userInput;
-  let words="text";
-  let params={screen_name:twitterUser, count: 20};
-  twitterClient.get("statuses/user_timeline",params,function(error,tweets,response){
-    if (!error) {
-    console.log("Here are the last 20 Tweets for:" +twitterUser);
-    for (let i=1;i<tweets.length;i++){
-      let time=tweets[i].created_at;
-      let timeArr=time.split(" ");
-      let display="Tweet#"+i+":"+tweets[i].text+"\n"
-      console.log(display);
-    };
-    // if(error) throw error;
+  let twitterClient=new twitter(keys.twitter);
+  let twitterHandle=userInput;
+  let text="text";
+  let params={screen_name:twitterHandle, count:20};
+  if(!twitterHandle){
+    twitterHandle="npasher_school";
   };
+  twitterClient.get('statuses/user_timeline',params,function(error,tweets,response){
+    if (!error) {
+    console.log("Here are the last 20 Tweets for:" +twitterHandle.toLowerCase());
+    for (let i=0;i<tweets.length;i++){
+      let time=tweets[i].created_at;
+      let number=i+1;
+      let pulledTweets="Tweet#"+number+":"+tweets[i].text+"\n";
+      console.log(pulledTweets);
+    };
+    };
+    if(error){
+      console.log("Error, Please try again.");
+    };
   });
 };
-
-myTweets();
-
+//Liri Ombd//
 function movieThis(){
   let movie=userInput;
   if(!movie){
-    movie="mr. nobody";
+    movie="Mr. Nobody";
+    console.log("\nIf you haven't watched "+movie+", then you should: http://www.imdb.com/title/tt0485947/"+"\nIt's on Netflix.")
   };
   movieTitle=movie
   request("http://www.omdbapi.com/?t="+movieTitle+"&y=&plot=short&apikey=trilogy",
@@ -55,7 +62,15 @@ function movieThis(){
                     +"\nPlot:"+moviePull.Plot
                     +"\nActors:"+moviePull.Actors
       console.log(movieStats);
+    };
+    if(error){
+      console.log("Error, Please try again.");
+    };
+  });
+};
+//Liri Spotify//
+function spotifyThisSong(){
+  let spotify=new Spotify({
 
-    }
   });
 };
