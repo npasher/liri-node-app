@@ -75,7 +75,7 @@ function spotifyThisSong(){
   let musicSpotify=new spotify(keys.spotify);
   let songTitle=userInput;
   if(!songTitle){
-    songTitle="The Sign";
+    songTitle="Tubthumping";
   };
   params=songTitle;
   musicSpotify.search({type:"track",query:params}, function(err,data){
