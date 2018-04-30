@@ -41,9 +41,6 @@ function myTweets(){
       });
     };
     };
-    if(error){
-      console.log("Error, Please try again.");
-    };
   });
 };
 //Liri Ombd//
@@ -71,9 +68,6 @@ function movieThis(){
         if (error) throw error;
       });
     };
-    if(error){
-      console.log("Error, Please try again.");
-    };
   });
 };
 //Liri Spotify//
@@ -99,12 +93,22 @@ function spotifyThisSong(){
         if (error) throw error;
       });
     };
-    // if(error){
-    //   console.log("Error, Please try again.");
-    // };
   });
 };
 //Liri Do What it Says//
 function doWhatItSays(){
-  
+ fs.readFile("random.txt","utf8",function(error,data){
+   if (error) throw error;
+   randomText=data.split(",");
+
+   liriCommand=randomText[0];
+   liriInput=randomText[1];
+
+   switch(liriCommand){
+     case "spotify-this-song":
+     userInput=liriInput;
+     spotifyThisSong();
+     break;
+   };
+ }); 
 };
