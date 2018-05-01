@@ -80,3 +80,174 @@ Album Title: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Versio
 Song Title: Tubthumping
 Link: https://open.spotify.com/album/0x3uUHhj8bCoM5Uzi5FNIv
 Album Title: Tubthumper
+Title:Chaos Walking
+Year:2019
+IMDB Rating:N/A
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:N/A
+Plot:A dystopian world where there are no women and all living creatures can hear each others' thoughts in a stream of images, words, and sounds called Noise.
+Actors:Daisy Ridley, Tom Holland, Nick Jonas, Mads Mikkelsen
+Title:Mr. Nobody
+Year:2009
+IMDB Rating:7.9
+Rotten Tomatoes Rating:undefined
+Country of Orgin:Belgium, Germany, Canada, France, USA, UK
+Language:English, Mohawk
+Plot:A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors:Jared Leto, Sarah Polley, Diane Kruger, Linh Dan PhamArtist: Chumbawamba
+Song Title: Tubthumping
+Link: https://open.spotify.com/album/0x3uUHhj8bCoM5Uzi5FNIv
+Album Title: TubthumperTweet#1:20th Tweet!
+Tweet#2:19th Tweet!
+Tweet#3:18th Tweet!
+Tweet#4:17th Tweet!
+Tweet#5:16th Tweet!
+Tweet#6:15th Tweet!
+Tweet#7:14th Tweet!
+Tweet#8:13th Tweet!
+Tweet#9:12th Tweet!
+Tweet#10:11th Tweet!
+Tweet#11:10th Tweet!
+Tweet#12:9th Tweet!
+Tweet#13:8th Tweet!
+Tweet#14:7th Tweet!
+Tweet#15:6th Tweet!
+Tweet#17:4th Tweet!
+Tweet#16:5th Tweet!
+Tweet#18:3rd Tweet!
+Tweet#19:2nd Tweet!
+Tweet#20:1st Tweet!
+Artist: Backstreet Boys
+Song Title: "I Want it That Way"
+Link: https://open.spotify.com/album/1NslKOZobWxINFaFkLol3r
+Album Title: The Hits--Chapter OneTweet#1:#nodeappshowcase for this week: @kidoju (https://t.co/ovQSlCQjvg)
+
+Kidoju is a platform to create and share educati… https://t.co/h3t1gPLhuX
+Tweet#2:Answers to common questions about structuring advanced #nodejs applications from @tthndrs https://t.co/e9Csc29vc4
+Tweet#3:RT @liran_tal: 🚔👮‍#nodejs &amp; #npmjs module authors -
+let your users know your project takes #security seriously by adding a Responsible Disc…
+Tweet#4:🚨Today is the End of Life date for #nodejs v4 and #nodejs 6 is moving into maintenance mode 🚨
+
+@MylesBorins covers… https://t.co/7zHplk7dQY
+Tweet#5:ICYMI: Changes are coming for a few #nodejs release lines. These changes are covered in this blog post: https://t.co/tR8Igc1Ism
+Tweet#6:@rajatkumar All meetings are posted on YouTube, if you want to get that details, you can head here… https://t.co/prWyUjUO81
+Tweet#7:@crapougnax @linuxfoundation TGIF. The correct survey is here https://t.co/xb5BhwidV7 and closes May 4. Sorry about that!
+Tweet#8:It appears we have linked to the wrong survey. The correct survey is here https://t.co/xb5Bhw0D3z and closes May 4. Sorry about that!
+Tweet#9:The @linuxfoundation is looking for open source professionals &amp; hiring managers to give input on the job market. If… https://t.co/0l2bOJXNOf
+Tweet#10:RT @evanhlucas: Thanks node 10. I’ll happily take an additional 10k req/s! https://t.co/EN2nxfwslu
+Tweet#11:Are you a large enterprise using #nodejs in production?  Please participate in the upcoming Node.js community enter… https://t.co/Neu3Sr2F0v
+Tweet#12:What's the future of #nodejs and the #nodejsfoundation? @mrhinkle provides his thoughts in this Q&amp;A with… https://t.co/SXLI6rzPlz
+Tweet#13:✨ @captainsafia has a ton of great blogs that look under the hood of #nodejs code. Check them out here https://t.co/kDim27DNRl
+Tweet#14:.@xjamundx of @PayPalEng discusses tackling challenges with large-scale #nodejs deployments, using async/await to h… https://t.co/1uOPUaPD7z
+Tweet#15:There will be a live podcast happening today on #nodejs security at 1pm ET. Information on how to tune in below 😀 https://t.co/wOlQsEELLq
+Tweet#16:.@menepie from @Intel discusses the benefits of being a part of the #nodejs Foundation, how Intel contributes to th… https://t.co/ReI5Et0gIR
+Tweet#17:RT @mhdawson1: Are you a large enterprise using #nodejs in production?  Please participate in the upcoming #nodejs community enterprise use…
+Tweet#18:#nodeappshowcase for this week: @SlackMap
+
+SlackMap is map application dedicated to Slackline enthusiasts. It helps… https://t.co/pLxtDzE0IL
+Tweet#19:@DeAkumzy Best to ask that question here: https://t.co/EUVUUa1VYb
+Tweet#20:Kudos to the person who made this cake! 🎂 https://t.co/nVRg9ddpAw
+Artist: PnB Rock
+Song Title: boogie
+Link: https://open.spotify.com/album/4oiTkphB9JYcl3lRVYGxCv
+Album Title: Horses (with PnB Rock, Kodak Black & A Boogie Wit da Hoodie)Artist: Earth, Wind & Fire
+Song Title: boogie wonderland
+Link: https://open.spotify.com/album/4RLVTxnuVN5ZWZqBFnaaQt
+Album Title: I Am
+Title:Black
+Year:2005
+IMDB Rating:8.2
+Rotten Tomatoes Rating:undefined
+Country of Orgin:India
+Language:Hindi, English
+Plot:The cathartic tale of a young woman who can't see, hear or talk and the teacher who brings a ray of light into her dark world.
+Actors:Amitabh Bachchan, Rani Mukerji, Shernaz Patel, Ayesha Kapoor
+Title:The Black Panther
+Year:1977
+IMDB Rating:6.8
+Rotten Tomatoes Rating:undefined
+Country of Orgin:UK
+Language:English
+Plot:A gung-ho ex-military man pursues a secret life of crime, culminating in the kidnapping of a teenage heiress.
+Actors:Donald Sumpter, Debbie Farrington, Marjorie Yates, Sylvia O'Donnell
+Title:Venom
+Year:2005
+IMDB Rating:4.7
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English
+Plot:A group of teenagers fear for their lives in the swamps of Louisiana, chased by Mr. Jangles, a man possessed by 13 evil souls, and now relentless in his pursuit of new victims.
+Actors:Agnes Bruckner, Jonathan Jackson, Laura Ramsey, D.J. Cotrona
+Title:Deadpool
+Year:2016
+IMDB Rating:8.0
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English
+Plot:A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.
+Actors:Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer
+Title:Ghost
+Year:1990
+IMDB Rating:7.0
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English
+Plot:After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.
+Actors:Patrick Swayze, Demi Moore, Whoopi Goldberg, Tony Goldwyn
+Title:undefined
+Year:undefined
+IMDB Rating:undefined
+Rotten Tomatoes Rating:undefined
+Country of Orgin:undefined
+Language:undefined
+Plot:undefined
+Actors:undefined
+Title:The Avengers
+Year:2012
+IMDB Rating:8.1
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English, Russian, Hindi
+Plot:Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+Actors:Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+Title:Footloose
+Year:1984
+IMDB Rating:6.5
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English
+Plot:A city teenager moves to a small town where rock music and dancing have been banned, and his rebellious spirit shakes up the populace.
+Actors:Kevin Bacon, Lori Singer, John Lithgow, Dianne Wiest
+Title:One Flew Over the Cuckoo's Nest
+Year:1975
+IMDB Rating:8.7
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English
+Plot:A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.
+Actors:Michael Berryman, Peter Brocco, Dean R. Brooks, Alonzo Brown
+Title:Super Troopers 2
+Year:2018
+IMDB Rating:N/A
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English
+Plot:When a border dispute arises between the U.S. and Canada, the Super Troopers are tasked with establishing a Highway Patrol station in the disputed area.
+Actors:Rob Lowe, Marisa Coughlan, Emmanuelle Chriqui, Lynda Carter
+Title:Super Troopers
+Year:2001
+IMDB Rating:7.1
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English, German, French
+Plot:Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.
+Actors:André Vippolis, Joey Kern, Geoffrey Arend, Erik Stolhanske
+Title:Super Troopers
+Year:2001
+IMDB Rating:7.1
+Rotten Tomatoes Rating:undefined
+Country of Orgin:USA
+Language:English, German, French
+Plot:Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.
+Actors:André Vippolis, Joey Kern, Geoffrey Arend, Erik Stolhanske
